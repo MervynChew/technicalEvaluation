@@ -38,7 +38,7 @@ function Pixel2Details () {
             </div>
           </div>
         </div>
-        <img src='./EventPic/pixel2023.webp' class='event-picture'></img>
+        <img src='/EventPic/pixel2023.webp' class='event-picture'></img>
       </div>
       <div class='event-detail-description-box'>
         <p class='event-detail-description'>Description:</p>

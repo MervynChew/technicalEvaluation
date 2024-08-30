@@ -38,7 +38,7 @@ function VhackDetails () {
             </div>
           </div>
         </div>
-        <img src='./EventPic/vhack.webp' class='event-picture'></img>
+        <img src='/EventPic/vhack.webp' class='event-picture'></img>
       </div>
       <div class='event-detail-description-box'>
         <p class='event-detail-description'>Description:</p>
