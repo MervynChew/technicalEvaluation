@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fredericka+the+Great&display=swap');
+
+.back-button {
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+
+.link-back {
+  margin-top: 500px; /* Adjust if necessary */
+  position: relative;
+  text-decoration: underline;
+}
+
+.back-button:hover {
+  color: #f6dd61;
+}
+
+.link-back:hover {
+  text-decoration: underline;
+  color: #f6dd61;
+}
+
+.title-event {
+  font-family: 'Fredericka the Great';
+  font-size: 60px;
+  width: 700px;
+  padding: 0;
+}
+
+.event-detail {
+  display: flex;
+  flex-direction: row;
+  margin-top: -30px;
+}
+
+.event-detail p {
+  margin-right: 20px;
+}
+
+.event-detail-frame {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  padding-left: 25px;
+}
+
+.event-detail-frame > div:first-child {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-detail p {
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  width: 120px;
+  margin: 0;
+}
+
+.event-detail p:first-of-type {
+  background-color: rgba(16, 63, 69, 1);
+  margin-right: 15px;
+}
+
+.event-detail p:nth-of-type(2) {
+  background-color: rgba(16, 63, 69, 1);
+  background-color: #f6dd61;
+  color: black;
+}
+
+.event-picture {
+  width: 500px;
+  height: auto;
+  margin-left: 60px;
+  border-radius: 20px;
+}
+
+.event-detail-wrapper {
+  display: flex;
+  gap: 4rem;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.event-icons {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+  color: #00403F;
+}
+
+.event-details {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #00403F;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.event-detail-description-box  {
+  margin-top: 10px;
+}
+
+.event-detail-description-box p:first-of-type  {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #00403F;
+  padding-left: 200px;
+}
+
+.event-detail-description-box p:not(:first-of-type)  {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #000000;
+  padding-left: 275px;
+  width: 1020px;
+}
+
+.event-detail-description-box > div > p {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #000000;
+  padding-left: 275px;
+  width: 1020px;
+}
+
+.event-detail-description-box ul  {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #000000;
+  margin-left: 320px;
+  width: 1020px;
+  list-style-type: square;
+}
+
+.event-detail-description-box ul:first-of-type  {
+  margin-top: 30px;
+}
+
+.event-detail-description-box ul li {
+  margin-bottom: 15px; /* Adjust the value as needed */
+}
+
+@media (max-width: 1100px) {
+  .title-event {
+    font-size: 30px;
+    padding-bottom: 10px;
+    width: 300px;
+  }
+  
+  .event-detail-frame {
+    padding-left: 25px;
+    padding-top: 5px;
+  }
+  
+  .event-detail-frame > div:first-child {
+    margin-left: 10px;
+    width: 300px;
+  }
+
+  .event-icons {
+    gap: 10px;
+  }
+  
+  .event-details {
+    gap: 10px;
+    font-size: 0.78rem;
+  }
+  
+  .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .event-picture {
+    width: 300px;
+    margin-left: 90px;
+  }
+
+  .event-detail-description-box  {
+    margin-top: -30px;
+  }
+  
+  .event-detail-description-box p:first-of-type  {
+    padding-left: 60px;
+    font-size: 1.1rem;
+  }
+  
+  .event-detail-description-box p:not(:first-of-type)  {
+    font-size: 0.85rem;
+    padding: 0;
+    padding-left: 100px;
+    width: 600px;
+  }
+  
+  .event-detail-description-box > div > p {
+    font-size: 0.85rem;
+    padding: 0;
+    padding-left: 100px;
+    width: 600px;
+  }
+  
+  .event-detail-description-box ul  {
+    margin-left: 50px;
+    font-size: 0.85rem;
+    padding: 0;
+    padding-left: 100px;
+    width: 600px;
+  }
+  
+  .event-detail-description-box ul:first-of-type  {
+    margin-top: 5px;
+  }
+  
+  .event-detail-description-box ul li {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 1100px) {
+  .title-event {
+    font-family: 'Fredericka the Great';
+    font-size: 60px;
+    width: 700px;
+    padding: 0;
+
+    font-size: 50px;
+  }
+  
+  .event-detail-frame {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    padding-left: 25px;
+  }
+  
+  .event-detail-frame > div:first-child {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .event-icons {
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    color: #00403F;
+  }
+  
+  .event-details {
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #00403F;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .event-picture {
+    width: 500px;
+    height: auto;
+    margin-left: 60px;
+    border-radius: 20px;
+
+    width: 400px;
+    margin-left: -150px;
+  }
+
+  .event-detail-description-box  {
+    margin-top: 10px;
+  }
+  
+  .event-detail-description-box p:first-of-type  {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #00403F;
+    padding-left: 200px;
+  }
+  
+  .event-detail-description-box p:not(:first-of-type)  {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #000000;
+    padding-left: 275px;
+    width: 1020px;
+
+    width: 780px
+  }
+  
+  .event-detail-description-box > div > p {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #000000;
+    padding-left: 275px;
+    width: 1020px;
+  }
+  
+  .event-detail-description-box ul  {
+    font-weight: bold;
+    font-size: 1.125rem;
+    color: #000000;
+    margin-left: 320px;
+    width: 1020px;
+    list-style-type: square;
+  }
+  
+  .event-detail-description-box ul:first-of-type  {
+    margin-top: 30px;
+  }
+  
+  .event-detail-description-box ul li {
+    margin-bottom: 15px; /* Adjust the value as needed */
+  }
+}
