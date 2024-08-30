@@ -5,7 +5,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import EventPage from './pages/event-page'
@@ -37,7 +36,7 @@ import CSBersamamu2Details from './pages/csbersamamu2022'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <EventPage/>,
   },
   {
     path: "event-page",
